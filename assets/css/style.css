@@ -714,6 +714,50 @@ section {
   }
 }
 
+.given-man{
+  margin-right: 20px;
+}
+
+.given{
+  display: flex;
+}
+
+.given-man p{
+  width: 300px;
+}
+
+@media(max-width: 1010px){
+  .given{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media(max-width: 320px){
+  .given{
+    margin-left: 30px;
+  }
+
+  .given-man{
+    margin-top: 30px;
+  }
+}
+
+.header-first{
+  text-align: center;
+  margin-bottom: 60px;
+  /* justify-content: center; */
+}
+
+.given{
+  justify-content: center;
+  /* text-align: center; */
+}
+
+.given-man span{
+  font-weight: bold;
+}
+
 @media(max-width:320px){
   .cta .row{
 
